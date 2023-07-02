@@ -1,5 +1,5 @@
 def palindrome(string):
-    return string.strip() == string[::1].strip()
+    return string.strip() == string[::-1].strip()
 
 if __name__ == "__main__":
     user_word = input()
