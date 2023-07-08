@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Навигатор</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Главная страница</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ссылка</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Выпадающий список
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Действие</a></li>
+            <li><a class="dropdown-item" href="#">Другое действие</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Здесь что-то ещё</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Отключено</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Поиск</button>
+      </form>
+     </div>
+    </div>
+   </nav>
+  <form action="" class="row g-3">
+      <p> <div class="col-auto">
+           <style type="text/css">
+           textarea[name="details"] {
+           resize: none;
+           }
+           </style>
+           <p><label for="field0"><b>Текст</b>
+              </label>
+           </p>
+               <textarea id="field0" name="details" cols="30" rows="4" placeholder="Enter additional text">
+               </textarea>
+          </div>
+           </p>
+
+
+
+      <p> <div class="col-auto">
+      <label for="field1">Текст</label>
+      <input id="field1" class="form-control" type="text">
+          </div>
+      </p>
+
+      <p> <div class="col-auto">
+      <label for="field2">Чекбокс</label>
+      <input id="field2" type="checkbox">
+          </div>
+      </p>
+
+      <p> <div class="col-auto">
+      <label for="inputPassword5">Пароль</label>
+      <input id="inputPassword5" class="form-control" type="password" placeholder="Password">
+         </div>
+      </p>
+
+      <p> <div class="col-auto">
+      <label for="field4">Календарь</label>
+      <input id="field4" type="datetime-local">
+          </div>
+      </p>
+
+      <p> <div class="col-auto">
+      <label>Кнопка</label>
+      <input type="button" class="btn btn-outline-danger" value="Just a button">
+          </div>
+      </p>
+  </form>
+ <a href="page2.html" class="link-opacity-50">Ссылка page 2</a>
+</body>
+</html>
